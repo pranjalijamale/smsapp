@@ -14,7 +14,7 @@ public class Student {
 	private String studentEmail;
 	private int studentAge;
 	private String studentCollageName;
-	private double feesPaid;
+	private float feesPaid;
 	private String studentCourse;
 	private String batchMode;
 	private String batchNumber;
@@ -48,10 +48,11 @@ public class Student {
 	public void setStudentCollageName(String studentCollageName) {
 		this.studentCollageName = studentCollageName;
 	}
-	public double getFeesPaid() {
+	
+	public float getFeesPaid() {
 		return feesPaid;
 	}
-	public void setFeesPaid(double feesPaid) {
+	public void setFeesPaid(float feesPaid) {
 		this.feesPaid = feesPaid;
 	}
 	public String getStudentCourse() {
